@@ -1,0 +1,134 @@
+
+body {
+  height: vmax;
+  border: 10px solid #fcfcfc;
+  background-color: #151516;
+  border:  10px solid #fff;
+  margin: 0;
+}
+
+
+
+header img {
+  top: 10%;
+  left: 10%;
+  position: fixed;
+}
+
+
+.contact {
+  top: 10%;
+  right: 5%;
+  position: absolute;
+  transform: rotate(90deg);
+
+}
+
+.work {
+  bottom: 5%;
+  right: 8%;
+  position: fixed;
+}
+
+.about {
+  bottom: 10%;
+  left: 5%;
+  position: fixed;
+  transform: rotate(270deg);
+}
+
+
+section {
+  position: absolute;
+  margin: 0 auto;
+  width: 700px;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  margin-left: -350px;
+  margin-top: -123.5px;
+}
+
+
+
+h3 {
+  font-size: 16.8px;
+  font-family: Avenir Next;
+  letter-spacing: 6.67px;
+  font-weight: 200;
+  color:#fcfcfc;
+  text-transform: uppercase;
+}
+
+.copy p {
+  font-size: 16.8px;
+  font-family: Avenir Next;
+  color: #fcfcfc;
+  line-height: 24px;
+  font-weight: 100;
+  padding-top: 10px;
+  letter-spacing: .5;
+  margin: 0;
+}
+
+.copy a {
+  text-decoration: none;
+  color: #fcfcfc;
+  font-weight: 700;
+}
+
+.copy a:hover {
+  color: #18B2DA;
+}
+
+@media only screen and (min-width: 451px) {
+
+  ul {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    height: auto;
+    width: vmax;
+  }
+
+  .copy {
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 10%;
+  }
+
+  .copy a {
+    color: #18B2DA;
+  }
+
+}
+
+@media only screen and (max-width: 420px){
+  .copy {
+    width: 80%;
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 10%;
+  }
+
+.copy p {
+  font-size: 14px;
+}
+
+  header img {
+    width: 15%;
+    top: 5%;
+    left: 8%;
+}
+
+  h3 {
+    display: none;
+  }
+
+}
