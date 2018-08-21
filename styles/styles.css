@@ -15,6 +15,10 @@ header img {
   position: fixed;
 }
 
+a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
 
 .contact {
   top: 15%;
@@ -36,6 +40,34 @@ header img {
   position: fixed;
   transform: rotate(270deg);
 }
+
+.contact a {
+    transition: background-size .4s ease;
+    background: linear-gradient(to bottom, transparent 62%, #18b2da 0) center center/0% 75% no-repeat;
+}
+
+.contact a:hover {
+    background-size: 100% 100%;
+}
+
+.about a {
+    transition: background-size .4s ease;
+    background: linear-gradient(to bottom, transparent 62%, #18b2da 0) center center/0% 75% no-repeat;
+}
+
+.about a:hover {
+    background-size: 100% 100%;
+}
+
+.work a {
+    transition: background-size .4s ease;
+    background: linear-gradient(to bottom, transparent 62%, #18b2da 0) center center/0% 75% no-repeat;
+}
+
+.work a:hover {
+    background-size: 100% 100%;
+}
+
 
 
 section {
