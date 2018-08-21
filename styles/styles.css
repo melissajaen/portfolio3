@@ -1,10 +1,9 @@
 
 body {
-  height: vmax;
+  height: vmax; 
   border: 10px solid #fcfcfc;
   background-color: #151516;
-  border:  10px solid #fff;
-  margin: 0;
+margin: 0;
 }
 
 
@@ -145,7 +144,7 @@ h3 {
     width: 80%;
     position: absolute;
     margin: auto;
-    top: 30%;
+    top: 20%;
     left: 10%;
   }
 
@@ -156,9 +155,7 @@ h3 {
 }
 
   header img {
-    width: 15%;
-    top: 5%;
-    left: 8%;
+    display: none;
 }
 
   h3 {
